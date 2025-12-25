@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="stylestudent.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+
+<div class="container">
+  <nav>
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.jpg" alt="">
+        <h1>Welcome To <br/>Skill Tube</h1>
+      </div>
+
+      <ul>
+        <li><a href="studentdashboard.html">
+          <i class="fas fa-user"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+
+        <li><a href="sdiscuss.html">
+          <i class="fas fa-users"></i>
+          <span class="nav-item">GroupDiscussion</span>
+        </a></li>
+
+        <li><a href="settings.php">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item">Setting</span>
+        </a></li>
+
+        <li><a href="contact.php">
+          <i class="fas fa-question-circle"></i>
+          <span class="nav-item">Contact</span>
+        </a></li>
+
+        <li><a href="help.php">
+          <i class="fas fa-envelope"></i>
+          <span class="nav-item">Help</span>
+        </a></li>
+
+        <li><a href="logout.php" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Logout</span>
+        </a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div class="main-top">
+      <img src="images/studentdashboard.jpg" alt="" class="dashboard-image">
+    </div>
+
+    <div class="main-body">
+      <h1>Contents</h1>
+
+      <div class="search_bar">
+        <input type="search" placeholder="Search...">
+        <select>
+          <option>Category</option>
+          <option>Academics</option>
+          <option>Skill</option>
+          <option>Resources/Articles</option>
+          <option>Project ideas</option>
+        </select>
+        <select class="filter">
+          <option>Filter</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <p>Contents we offer !!</p>
+        <a href="#">See all</a>
+      </div>
+
+      <!-- Academics -->
+      <div class="contents">
+        <div class="contents_details">
+          <div class="img">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="text">
+            <h2>Academics</h2>
+            <span>Dive Into Academic Topics with Video Tutorials</span>
+
+            <a href="stuacademics.php">
+              <button class="explore-btn">Explore Now</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="contents">
+        <div class="contents_details">
+          <div class="img">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="text">
+            <h2>Skills</h2>
+            <span>Develop Essential Skills for Success</span>
+
+            <a href="stuskills.php">
+              <button class="explore-btn">Explore Now</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Resources -->
+      <div class="contents">
+        <div class="contents_details">
+          <div class="img">
+            <i class="fas fa-file"></i>
+          </div>
+          <div class="text">
+            <h2>Resources/Articles</h2>
+            <span>Explore Informative Resources</span>
+
+            <a href="sturesources.php">
+              <button class="explore-btn">Explore Now</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="contents">
+        <div class="contents_details">
+          <div class="img">
+            <i class="fas fa-tasks"></i>
+          </div>
+          <div class="text">
+            <h2>Project Ideas</h2>
+            <span>Explore Exciting Projects</span>
+
+            <a href="stuproject.php">
+              <button class="explore-btn">Explore Now</button>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Dashboard</title>
+    <link rel="stylesheet" href="styleteacher.css" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+<div class="container">
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="">
+                <h1>Welcome To <br/>Skill Tube</h1>
+            </div>
+            <ul>
+                <li><a href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="nav-item">Dashboard</span>
+                </a></li>
+                <li><a href="tdiscuss.html">
+                    <i class="fas fa-users"></i>
+                    <span class="nav-item">GroupDiscussion</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-item">Setting</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-question-circle"></i>
+                    <span class="nav-item">Contact</span>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-envelope"></i>
+                    <span class="nav-item">Help</span>
+                </a></li>
+                <li><a href="logout.php" class="logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span class="nav-item">Logout</span>
+                </a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="main-top">
+            <img src="images/teacherdashboard.jpg" alt="" class="dashboard-image">
+        </div>
+
+        <div class="main-body">
+            <h1>Contents</h1>
+
+            <div class="search_bar">
+                <input type="search" placeholder="Search...">
+                <select>
+                    <option>Category</option>
+                    <option>Academics</option>
+                    <option>Skill</option>
+                    <option>Resources/Articles</option>
+                    <option>Project ideas</option>
+                </select>
+                <select class="filter">
+                    <option>Filter</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <p>Help Students Excel in Their Academic Journey !!</p>
+                <a href="#">See all</a>
+            </div>
+
+            <!-- Academics -->
+            <div class="contents">
+                <div class="contents_details">
+                    <div class="img">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Academics</h2>
+                        <span>Empower Students with Engaging Educational Content</span>
+                        <a href="viewacademic.php"><button class="explore-btn">Add Content</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+            <div class="contents">
+                <div class="contents_details">
+                    <div class="img">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Skills</h2>
+                        <span>Enhance Student Skills</span>
+                        <a href="skills.php"><button class="explore-btn">Add Content</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Resources/Articles -->
+            <div class="contents">
+                <div class="contents_details">
+                    <div class="img">
+                        <i class="fas fa-file"></i>
+                    </div>
+                    <div class="text">
+                        <h2>Resources/Articles</h2>
+                        <span>Empowering Students: Providing Essential Notes and Resources</span>
+                        <a href="resources.php"><button class="explore-btn">Add Content</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>
+</body>
+</html>

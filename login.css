@@ -1,0 +1,111 @@
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000000; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body,html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #f0f0f0;
+    padding: 3px;
+    margin: 0;
+    background-image: url(images/registerimage.jpg);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+       
+      
+    
+}
+
+.wrapper {
+    width: 350px;
+    margin: auto;
+    background-color: rgba(247, 176, 249, 0.845);
+    padding: 100px;
+    border-radius: 9px;
+    border: 10px solid #7e147b; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease,slideIn 2s ease;;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; 
+    }
+    to {
+        opacity: 1; 
+    }
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0); 
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.help-block {
+    color: #dc3545;
+}
+
+.has-error input[type="email"],
+.has-error input[type="password"] {
+    border-color: #dc3545;
+}
